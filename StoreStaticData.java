@@ -87,6 +87,9 @@ public class StoreStaticData {
 	@Autowired
 	private StudentServiceUtil studentServiceUtil;
 
+/**
+
+added comment */
 	public String storeStaticData() {
 		this.storeQuestionType();
 		this.storeDifficultyLevel();
